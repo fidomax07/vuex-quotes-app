@@ -8,7 +8,7 @@ const requestHeaders = {
   Accept: "application/json",
 };
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
     currentQuote: "",
     quotesList: [],
@@ -52,3 +52,5 @@ export default new Vuex.Store({
     },
   },
 });
+
+export default store;
