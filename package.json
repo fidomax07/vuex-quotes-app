@@ -1,0 +1,32 @@
+{
+  "name": "vuex_quotes_app",
+  "description": "Vuex Quotes App",
+  "version": "1.0.0",
+  "author": "Fidan Ademi <fidomax07@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "format": "prettier --write \"src/**/*.{js,vue}\"",
+    "format:check": "prettier --check \"src/**/*.{js,vue}\"",
+    "lint": "vue-cli-service lint --quiet"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "prettier": "^2.6.2",
+    "vue": "^2.6.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-tailwind": "~1.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
